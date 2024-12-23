@@ -1,5 +1,5 @@
 /************* Main Js File ************************
-    Template Name: Kalvin - Portfolio Template
+    Template Name: Pramod - Portfolio Template
     Author: cosmos-themes
     Version: 2.0
     Copyright 2021

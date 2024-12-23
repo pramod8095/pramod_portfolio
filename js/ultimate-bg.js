@@ -266,7 +266,7 @@
                 '<div class="'+outerDivClass+'" style="z-index: -1; position: absolute; top: 0; left: 0; overflow: hidden;">'+
                 '<video  autoplay="1" loop="1" muted="1" id="'+randomID+'" height="'+height+'" width="'+width+'" poster="'+poster+'" >'+
                 mp4Source + ogvSource + webmSource +
-                'Your browser doesn\'t support HTML5 video tag.'+
+                'Your browser  sn\'t support HTML5 video tag.'+
                 '</video>'+
                 '</div>';
 
