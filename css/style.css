@@ -50,6 +50,20 @@ a:hover,
 a:focus {
     color: inherit;
 }
+ .about-info,
+.logo{
+    font-family: "Tangerine", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pramod{
+    color: #e8be01;
+}
+.banner{
+    font-family: "Tangerine", serif;
+font-weight: 400;
+font-style: normal;
+}
 
 body {
     font-family: "Raleway", san-serif;
@@ -731,6 +745,7 @@ nav.fixed-top .nav-item .nav-link:before {
     display: inline-block;
     position: relative;
     text-align: left;
+    
 }
 
 .cd-words-wrapper b {
@@ -924,13 +939,14 @@ section.about .about-content .about-heading h2 {
     text-transform: uppercase;
 }
 
-section.about .about-content .about-heading span {
+section.about .about-heading span {
     font-family: "Raleway", san-serif;
     color: #222;
     font-size: 19px;
 }
 
 section.about .about-content p {
+   
     line-height: 28px;
 }
 

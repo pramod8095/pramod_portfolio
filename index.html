@@ -29,12 +29,17 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <!-- Google Fonts -->
-    <link
+    <!-- <link
         href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900%7cOpen+Sans:400,600,700,800"
-        rel="stylesheet">
+        rel="stylesheet"> -->
 
     <!--Site Main Style css-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -92,14 +97,15 @@
         <div class="container">
             <!--Banner Content-->
             <div class="banner-caption">
-                <h1>Hi! I'm Pramod.</h1>
+                <h1>Hey! I'm <span class="pramod">Pramod</span></h1>
                 <p class="cd-headline clip mt-30">
-                    <span>Creative Designer & Developer located in Bengaluru.</span><br>
+                    <span>Frontend Developer with 6 years of expertise.</span><br>
                     <span class="blc">Specialized in</span>
                     <span class="cd-words-wrapper">
-                        <b class="is-visible">Creating Websites.</b>
+                        <b class="is-visible">Typescript.</b>
                         <b>ReactJS.</b>
                         <b>Next.JS.</b>
+                        <b>Redux.</b>
                     </span>
                 </p>
             </div>
@@ -109,40 +115,43 @@
         </div>
     </section>
     <style>
+       
         /* Ensure the banner section takes full height of the viewport */
         .banner {
             position: relative;
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
-            height: 100vh; /* Full viewport height */
+            height: 100vh;
+            /* Full viewport height */
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white; /* Text color */
+            color: white;
+            /* Text color */
         }
-    
+
         /* Container for the banner content */
-       
-    
-    
+
+
+
         .cd-headline {
             font-size: 1.5rem;
         }
-    
+
         .arrow {
             position: absolute;
             bottom: 20px;
             left: 50%;
             transform: translateX(-50%);
         }
-    
+
         /* Make text responsive on smaller screens */
         @media (max-width: 768px) {
             .banner-caption h1 {
                 font-size: 2.5rem;
             }
-    
+
             .cd-headline {
                 font-size: 1.2rem;
             }
@@ -167,17 +176,21 @@
                             <h2>About Me.</h2>
                             <span> Web Developer</span>
                         </div>
-                        <p>I'm <b>Pramod K</b> , a web developer with over 6 years of experience in developing web
-                            applications using various technologies such as ReactJS, Redux, and other front-end
-                            frameworks.</p>
-                        <p>As a developer, I am constantly striving to learn and improve my skills to stay up-to-date
-                            with the latest trends in the industry. My passion for web development drives me to create
-                            clean, efficient, and user-friendly applications that provide seamless experiences for
-                            end-users.
-                        <p>If you are looking for a web developer who can deliver high-quality results and contribute to
-                            your team's success, feel free to reach out to me. I would be happy to discuss how I can
-                            bring value to your organization.</p>
-                        </p>
+                        <div class="about-info">
+                            <p>I'm <b>Pramod K</b> , a web developer with over 6 years of experience in developing web
+                                applications using various technologies such as ReactJS, Redux, and other front-end
+                                frameworks.</p>
+                            <p>As a developer, I am constantly striving to learn and improve my skills to stay up-to-date
+                                with the latest trends in the industry. My passion for web development drives me to create
+                                clean, efficient, and user-friendly applications that provide seamless experiences for
+                                end-users.
+                            <p>If you are looking for a web developer who can deliver high-quality results and contribute to
+                                your team's success, feel free to reach out to me. I would be happy to discuss how I can
+                                bring value to your organization.</p>
+                            </p>
+
+                        </div>
+                       
                         <!--About Social Icons-->
                         <div class="social-icons">
                             <a href="https://www.instagram.com/impramod_8095/" target="_blank"><i
@@ -340,23 +353,23 @@
                     <div class="portfolio-filter text-center">
                         <ul>
                             <li class="sel-item" data-filter="*">All</li>
-                            <li data-filter=".design">Allstate</li>
-                            <li data-filter=".application">TCS</li>
-                            <li data-filter=".development">Robosoft</li>
+                            <li data-filter=".allstate">Allstate</li>
+                            <li data-filter=".tcs">TCS</li>
+                            <li data-filter=".robosoft">Robosoft</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row portfolio-items">
                 <!--Portfolio Item-->
-                <div class="col-lg-4 col-md-6 item application">
+                <div class="col-lg-4 col-md-6 item allstate">
                     <div class="item-content">
-                        <img src="images/portfolio/img-1.jpg" alt="">
+                        <img src="images/portfolio/img-1.png" alt="">
                         <div class="item-overlay">
                             <h6>Application</h6>
                             <div class="icons">
                                 <span class="icon link">
-                                    <a href="images/portfolio/img-1.jpg">
+                                    <a href="images/portfolio/img-1.png">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </span>
@@ -365,14 +378,14 @@
                     </div>
                 </div>
                 <!--Portfolio Item-->
-                <div class="col-lg-4 col-md-6 item design">
+                <div class="col-lg-4 col-md-6 item robosoft">
                     <div class="item-content">
-                        <img src="images/portfolio/img-2.jpg" alt="">
+                        <img src="images/portfolio/img-2.png" alt="">
                         <div class="item-overlay">
                             <h6>Web Design</h6>
                             <div class="icons">
                                 <span class="icon link">
-                                    <a href="images/portfolio/img-2.jpg">
+                                    <a href="images/portfolio/img-2.png">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </span>
@@ -381,14 +394,14 @@
                     </div>
                 </div>
                 <!--Portfolio Item-->
-                <div class="col-lg-4 col-md-6 item development">
+                <div class="col-lg-4 col-md-6 item robosoft">
                     <div class="item-content">
-                        <img src="images/portfolio/img-3.jpg" alt="">
+                        <img src="images/portfolio/img-3.png" alt="">
                         <div class="item-overlay">
                             <h6>Application</h6>
                             <div class="icons">
                                 <span class="icon link">
-                                    <a href="images/portfolio/img-3.jpg">
+                                    <a href="images/portfolio/img-3.png">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </span>
@@ -397,14 +410,14 @@
                     </div>
                 </div>
                 <!--Portfolio Item-->
-                <div class="col-lg-4 col-md-6 item design development">
+                <div class="col-lg-4 col-md-6 item tcs development">
                     <div class="item-content">
-                        <img src="images/portfolio/img-4.jpg" alt="">
+                        <img src="images/portfolio/img-4.png" alt="">
                         <div class="item-overlay">
                             <h6>Development</h6>
                             <div class="icons">
                                 <span class="icon link">
-                                    <a href="images/portfolio/img-4.jpg">
+                                    <a href="images/portfolio/img-4.png">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </span>
@@ -413,14 +426,14 @@
                     </div>
                 </div>
                 <!--Portfolio Item-->
-                <div class="col-lg-4 col-md-6 item development application">
+                <div class="col-lg-4 col-md-6 item development tcs">
                     <div class="item-content">
-                        <img src="images/portfolio/img-5.jpg" alt="">
+                        <img src="images/portfolio/img-5.png" alt="">
                         <div class="item-overlay">
                             <h6>Web Design</h6>
                             <div class="icons">
                                 <span class="icon link">
-                                    <a href="images/portfolio/img-5.jpg">
+                                    <a href="images/portfolio/img-5.png">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </span>
@@ -429,14 +442,14 @@
                     </div>
                 </div>
                 <!--Portfolio Item-->
-                <div class="col-lg-4 col-md-6 item application development">
+                <div class="col-lg-4 col-md-6 item application development allstate">
                     <div class="item-content">
-                        <img src="images/portfolio/img-6.jpg" alt="">
+                        <img src="images/portfolio/img-6.png" alt="">
                         <div class="item-overlay">
                             <h6>Web Design</h6>
                             <div class="icons">
                                 <span class="icon link">
-                                    <a href="images/portfolio/img-6.jpg">
+                                    <a href="images/portfolio/img-6.png">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </span>
@@ -465,62 +478,76 @@
                     <!--Blogs Item-->
                     <div class="blog-item">
                         <div class="blog-img">
-                            <a href="https://medium.com/@kpramod1494/reactjs-best-practices-feed43ae62f0" target="_blank">
-                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-4.jpg" alt="">
+                            <a href="https://medium.com/@kpramod1494/reactjs-best-practices-feed43ae62f0"
+                                target="_blank">
+                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-4.jpg"
+                                    alt="">
                             </a>
                         </div>
                         <div class="blog-content">
                             <h3>ReactJS Best Practices</h3>
-                            <p>ReactJS best practices emphasize using functional components, hooks, and the Context API for simpler, more maintainable code....</p>
+                            <p>ReactJS best practices emphasize using functional components, hooks, and the Context API
+                                for simpler, more maintainable code....</p>
                             <div class="blog-meta">
                                 <span class="more">
-                                    <a href="https://medium.com/@kpramod1494/reactjs-best-practices-feed43ae62f0" target="_blank">Read More</a>
+                                    <a href="https://medium.com/@kpramod1494/reactjs-best-practices-feed43ae62f0"
+                                        target="_blank">Read More</a>
                                 </span>
-                                
+
                             </div>
                         </div>
                     </div>
                     <!--Blogs Item-->
                     <div class="blog-item">
                         <div class="blog-img">
-                            <a href="https://dev.to/pramodk/performance-optimization-techniques-that-can-be-applied-to-react-applications-to-improve-their-performance-5b5m" target="_blank">
-                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-2.jpg" alt="">
+                            <a href="https://dev.to/pramodk/performance-optimization-techniques-that-can-be-applied-to-react-applications-to-improve-their-performance-5b5m"
+                                target="_blank">
+                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-2.jpg"
+                                    alt="">
                             </a>
                         </div>
                         <div class="blog-content">
                             <h3>Performance optimization techniques.</h3>
-                            <p>Performance optimization techniques that can be applied to React applications to improve their performance ...</p>
+                            <p>Performance optimization techniques that can be applied to React applications to improve
+                                their performance ...</p>
                             <div class="blog-meta">
                                 <span class="more">
-                                    <a href="https://dev.to/pramodk/performance-optimization-techniques-that-can-be-applied-to-react-applications-to-improve-their-performance-5b5m" target="_blank">Read More</a>
+                                    <a href="https://dev.to/pramodk/performance-optimization-techniques-that-can-be-applied-to-react-applications-to-improve-their-performance-5b5m"
+                                        target="_blank">Read More</a>
                                 </span>
-                                
+
                             </div>
                         </div>
                     </div>
                     <!--Blogs Item-->
                     <div class="blog-item">
                         <div class="blog-img">
-                            <a href="https://dev.to/pramodk/chatgpt-will-it-replace-software-engineers-anytime-soon-58jk" target="_blank">
-                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-5.jpg" alt="">
+                            <a href="https://dev.to/pramodk/chatgpt-will-it-replace-software-engineers-anytime-soon-58jk"
+                                target="_blank">
+                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-5.jpg"
+                                    alt="">
                             </a>
                         </div>
                         <div class="blog-content">
                             <h3>ChatGPT, will it replace software engineers anytime soon?</h3>
-                            <p>ChatGPT is a language model developed by OpenAI that has the ability to generate human-like text. It has been trained ...</p>
+                            <p>ChatGPT is a language model developed by OpenAI that has the ability to generate
+                                human-like text. It has been trained ...</p>
                             <div class="blog-meta">
                                 <span class="more">
-                                    <a href="https://dev.to/pramodk/chatgpt-will-it-replace-software-engineers-anytime-soon-58jk" target="_blank">Read More</a>
+                                    <a href="https://dev.to/pramodk/chatgpt-will-it-replace-software-engineers-anytime-soon-58jk"
+                                        target="_blank">Read More</a>
                                 </span>
-                                
+
                             </div>
                         </div>
                     </div>
                     <!--Blogs Item-->
                     <div class="blog-item">
                         <div class="blog-img">
-                            <a href="https://dev.to/pramodk/implement-authentication-and-authorization-in-a-reactjs-application-30im" target="_blank">
-                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-1.jpg" alt="">
+                            <a href="https://dev.to/pramodk/implement-authentication-and-authorization-in-a-reactjs-application-30im"
+                                target="_blank">
+                                <img src="https://63ab6bf3108efb6c507c6280--silver-youtiao-7e7347.netlify.app/assets/images/blog-1.jpg"
+                                    alt="">
                             </a>
                         </div>
                         <div class="blog-content">
@@ -528,15 +555,16 @@
                             <p>Implement authentication and authorization in a ReactJS application ...</p>
                             <div class="blog-meta">
                                 <span class="more">
-                                    <a href="https://dev.to/pramodk/implement-authentication-and-authorization-in-a-reactjs-application-30im" target="_blank">Read More</a>
+                                    <a href="https://dev.to/pramodk/implement-authentication-and-authorization-in-a-reactjs-application-30im"
+                                        target="_blank">Read More</a>
                                 </span>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
     <!--Blog Section End-->
@@ -717,7 +745,8 @@
                 <div class="col-md-12">
                     <hr>
                     <p class="copy pt-30">
-                        No &copy; copyright issues. Feel free to copy, source code is in my github. If you need any help, ping me!.
+                        No &copy; copyright issues. Feel free to copy, source code is in my github. If you need any
+                        help, ping me!.
                     </p>
                 </div>
             </div>
